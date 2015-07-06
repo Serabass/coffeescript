@@ -1,0 +1,39 @@
++ - add
+- - subtract [sub]
+* - multiply [mul]
+/ - divide [div]
+
+-- ? - decrement [dec]
+++ ? - increment [inc]
+
+== - equals [eq]
+!= - notEquals [neq]
+
+< - lessThan [lt]
+> - greaterThan [gt]
+<= lessOrEqual [loe]
+>= greaterOrEqual [goe]
+
+% - defaultModulo [mod]
+
+! - negate [neg]
+^ - xor
+&& - and
+|| - or
+
+~ - bitwiseNegate [bNeg]
+& - bitwiseAnd [bAnd]
+| - bitwiseOr [bOr]
+
+[] - getAt [get]
+
++=
+-=
+*=
+/=
+%=
+
+Variations:
+
+Class.prototype['+'] = ->
+Class.prototype.add = ->
