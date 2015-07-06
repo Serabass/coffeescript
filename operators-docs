@@ -14,7 +14,7 @@
 <= lessOrEqual [loe]
 >= greaterOrEqual [goe]
 
-% - stdModulo [mod]
+% - defaultModulo [mod]
 
 ! - negate [neg]
 ^ - xor
@@ -35,10 +35,5 @@
 
 Variations:
 
-x: 
-  Class.metaClass
-  Class.operators
-  Class.prototype
-
-x['+'] = ->
-x.add = ->
+Class.prototype['+'] = ->
+Class.prototype.add = ->
