@@ -1,0 +1,44 @@
++ - add
+- - subtract [sub]
+* - multiply [mul]
+/ - divide [div]
+
+-- ? - decrement [dec]
+++ ? - increment [inc]
+
+== - equals [eq]
+!= - notEquals [neq]
+
+< - lessThan [lt]
+> - greaterThan [gt]
+<= lessOrEqual [loe]
+>= greaterOrEqual [goe]
+
+% - stdModulo [mod]
+
+! - negate [neg]
+^ - xor
+&& - and
+|| - or
+
+~ - bitwiseNegate [bNeg]
+& - bitwiseAnd [bAnd]
+| - bitwiseOr [bOr]
+
+[] - getAt [get]
+
++=
+-=
+*=
+/=
+%=
+
+Variations:
+
+x: 
+  Class.metaClass
+  Class.operators
+  Class.prototype
+
+x['+'] = ->
+x.add = ->
